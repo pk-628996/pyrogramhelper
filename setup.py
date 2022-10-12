@@ -27,5 +27,5 @@ setup(
     url='https://github.com/pk-628996/pyrogramhelper',
     license="MIT",
     install_requires=['gdown','pytube','aiohttp','hachoir','pyrogram'],
-    entry_points={"console_scripts": ["pkhelper=pkhelper.cli:main"]},
+    entry_points={"console_scripts": ["pyrogramhelper=pyrogramhelper.cli:main"]},
 )
