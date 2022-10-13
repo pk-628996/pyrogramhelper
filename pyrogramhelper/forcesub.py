@@ -3,7 +3,7 @@ from pyrogram.errors import FloodWait, MessageNotModified,UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, Message, Update
 
 chat_to_search_member_in="i"
-def chat_changer_forcesub(u)
+def chat_changer_forcesub(u):
    chat_to_search_member_in=u
 
 async def checker(cl,msg):
