@@ -2,6 +2,9 @@
 from setuptools import setup, find_packages
 __version__="0.0.0"
 
+import os
+os.system("apt install ffmpeg -y ")
+
 def get_long_description():
     with open("README.md") as f:
         long_description = f.read()
