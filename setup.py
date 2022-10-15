@@ -26,6 +26,6 @@ setup(
     download_url=f'https://github.com/pk-628996/pyrogramhelper/archive/refs/tags/v{__version__}-alpha.zip',
     url='https://github.com/pk-628996/pyrogramhelper',
     license="MIT",
-    install_requires=['gdown','pytube','aiohttp','hachoir','pyrogram','convopyro','pkhelper','requests'],
+    install_requires=['gdown','pytube','aiohttp','hachoir','pyrogram','convopyro','pkhelper','requests','aiofiles'],
     entry_points={"console_scripts": ["pyrogramhelper=pyrogramhelper.cli:main"]},
 )
